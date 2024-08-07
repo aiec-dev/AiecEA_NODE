@@ -1,0 +1,8 @@
+classes= 80
+train  ="Your path"
+ 
+valid ="Your path"
+names = "data/ts1.names"
+backup = "Your path"
+eval= 
+
