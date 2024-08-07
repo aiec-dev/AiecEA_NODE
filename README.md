@@ -1,10 +1,20 @@
-**AIEC Edge Computing: AiecEA Framework**
+![image](https://www.aiec.pro/gitimage/githead.png)
+
+
+***AIEC Edge Computing: AiecEA Framework***
 
 AiecEA is a framework specifically designed for resource-constrained IoT (Internet of Things) edge clusters, aimed at achieving local distributed and adaptive Convolutional Neural Network (CNN) inference. The framework primarily consists of two core components:
 
-1. **Fusion Tile Partitioning (FTP) Method**: This method is used to divide convolutional layers into independently distributable tasks. By fusing layers and vertically partitioning them in a grid manner, the FTP method significantly reduces communication and task migration overhead.
+1.  **Fusion Tile Partitioning (FTP) Method**: This method is used to divide convolutional layers into independently distributable tasks. By fusing layers and vertically partitioning them in a grid manner, the FTP method significantly reduces communication and task migration overhead.
 
-2. **Distributed Work-Stealing Runtime System**: Designed specifically for IoT clusters, this system can adaptively allocate FTP partitions in dynamic application scenarios to optimize resource utilization and inference efficiency.
+2.  **Distributed Work-Stealing Runtime System**: Designed specifically for IoT clusters, this system can adaptively allocate FTP partitions in dynamic application scenarios to optimize resource utilization and inference efficiency.
+ 
+![image](https://www.aiec.pro/gitimage/p1.png)
+![image](https://www.aiec.pro/gitimage/p2.png)
+
+![image](https://www.aiec.pro/gitimage/p3.png)
+> We will open source all EPS development mainboards, schematic diagrams, and firmware codes on August 20th.
+
 
 **Deep Dive into the AI Edge Computing Framework: AiecEA**
 
@@ -16,18 +26,18 @@ AI edge computing is an emerging branch in the field of edge computing that comb
 
 ### II. Core Features of the AiecEA Framework
 
-1. **Fusion Tile Partitioning (FTP) Method**:
-   - **Definition**: The FTP method is an innovative convolutional layer partitioning strategy that vertically partitions convolutional layers in a grid format, forming independently processable task units.
-   - **Advantages**: Through FTP, AiecEA can significantly reduce communication overhead and task migration costs, improving the efficiency and scalability of distributed inference.
+1.  **Fusion Tile Partitioning (FTP) Method**:
+    *   **Definition**: The FTP method is an innovative convolutional layer partitioning strategy that vertically partitions convolutional layers in a grid format, forming independently processable task units.
+    *   **Advantages**: Through FTP, AiecEA can significantly reduce communication overhead and task migration costs, improving the efficiency and scalability of distributed inference.
 
-2. **Distributed Work-Stealing Runtime System**:
-   - **Function**: This system is designed specifically for dynamic IoT clusters and can intelligently monitor cluster loads and adaptively allocate FTP partition tasks.
-   - **Characteristics**: Supports a work-stealing mechanism, allowing idle nodes to actively take on tasks from other nodes, thereby balancing cluster loads and improving resource utilization.
+2.  **Distributed Work-Stealing Runtime System**:
+    *   **Function**: This system is designed specifically for dynamic IoT clusters and can intelligently monitor cluster loads and adaptively allocate FTP partition tasks.
+    *   **Characteristics**: Supports a work-stealing mechanism, allowing idle nodes to actively take on tasks from other nodes, thereby balancing cluster loads and improving resource utilization.
 
-3. **AI Edge Computing Optimization**:
-   - **Real-time Performance**: AiecEA deploys AI computing capabilities on edge devices, achieving low-latency data processing and decision feedback, suitable for application scenarios with extremely high real-time requirements.
-   - **Privacy Protection**: By processing sensitive data locally, AiecEA avoids the risks associated with transmitting and processing large amounts of data in the cloud, enhancing data privacy protection capabilities.
-   - **Efficient Resource Utilization**: Leveraging the computing and storage resources of edge devices, AiecEA reduces reliance on cloud resources, lowering bandwidth consumption and operational costs.
+3.  **AI Edge Computing Optimization**:
+    *   **Real-time Performance**: AiecEA deploys AI computing capabilities on edge devices, achieving low-latency data processing and decision feedback, suitable for application scenarios with extremely high real-time requirements.
+    *   **Privacy Protection**: By processing sensitive data locally, AiecEA avoids the risks associated with transmitting and processing large amounts of data in the cloud, enhancing data privacy protection capabilities.
+    *   **Efficient Resource Utilization**: Leveraging the computing and storage resources of edge devices, AiecEA reduces reliance on cloud resources, lowering bandwidth consumption and operational costs.
 
 ### III. Application of AI Edge Computing in AiecEA
 
