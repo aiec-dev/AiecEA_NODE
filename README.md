@@ -10,6 +10,7 @@ AiecEA is a framework specifically designed for resource-constrained IoT (Intern
 2.  **Distributed Work-Stealing Runtime System**: Designed specifically for IoT clusters, this system can adaptively allocate FTP partitions in dynamic application scenarios to optimize resource utilization and inference efficiency.
  
 ![image](https://www.aiec.pro/gitimage/p1.png)
+> PCB Pinout Definition Diagram
 ![image](https://www.aiec.pro/gitimage/p2.png)
 
 ![image](https://www.aiec.pro/gitimage/p3.png)
