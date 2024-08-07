@@ -1,3 +1,6 @@
+
+![image](https://img.shields.io/badge/AIEC_TEAM-AI-blue)
+![image](https://img.shields.io/badge/AIEC_TEAM-hardware-blue)
 ![image](https://www.aiec.pro/gitimage/githead.png)
 
 
